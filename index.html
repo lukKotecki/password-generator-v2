@@ -12,28 +12,39 @@
 <body>
 
     <main id="main">
+
         <div>
             <h1 class="wallpoet-regular"><span>GENE</span>rate a <span>RAN</span>dom pa<span>SS</span>word</h1>
             <p>new way of generating passwords</p>
         </div>
+
         <form>
-            <div>
-                <button>GENERATE</button>
-                <input type="number">
+            <div class="form_columns">
+                <button id="generate">GENERATE</button> <br>
+                <div class="password_length_section">
+                    <p for="length">Length of password</p>
+                    <input id="length" type="number" min="1" max="20" value="15">
+                </div>
+                
             </div>
-            <div>
-                <input id="small-letters" type="checkbox">
+            <div class="form_columns">
+                <input id="small-letters" type="checkbox" checked>
                 <label for="small-letters">small letters</label><br>
-                <input id="capital-letters" type="checkbox">
+                <input id="capital-letters" type="checkbox" checked>
                 <label for="capital-letters">capital letters</label><br>
-                <input id="numbers" type="checkbox">
+                <input id="numbers" type="checkbox" checked>
                 <label for="numbers">numbers</label><br>
+                <input id="characters" type="checkbox" checked>
+                <label for="characters">characters</label><br>
             </div>
-
-
 
         </form>
 
+        <div class="passwords">
+            <div id="password_1" class="password_field"> . . . </div>
+            <div id="password_2" class="password_field"> . . . </div>
+
+        </div>
 
 
 
