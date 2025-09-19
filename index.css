@@ -1,0 +1,28 @@
+body{
+    background-color: darkolivegreen;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.wallpoet-regular {
+  font-family: "Wallpoet", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+main{
+ background-color: red;
+ /* display:flex; */
+ margin: 100px auto;
+ width: 600px;
+ height: 600px;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 10px 45px 200px black;
+}
+
+main h1 span{
+    color: #131;
+}
